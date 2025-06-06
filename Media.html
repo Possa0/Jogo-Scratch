@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <h1>Media das notas</h1>
+    <input type="number" id="m1" placeholder="Digite a nota 1" max="10" min="1">
+    <input type="number" id="m2" placeholder="Digite a nota 2" max="10" min="1">
+    <br>
+    <br>
+    <input type="number" id="m3" placeholder="Digite a nota 3" max="10" min="1">
+    <input type="number" id="m4" placeholder="Digite a nota 4" max="10" min="1">
+    <br>
+    <br>
+    <button onclick="avarage()">Faça a media</button>
+    <h2 id="resultado"></h2>
+    <br>
+    <h3 id="mensagem"></h3>
+</body>
+<style>
+    body {
+        text-align: center;
+        background-color:rgb(56, 81, 134);
+    }
+    h1 {
+        font-family: Baskerville;
+    }
+    input {
+        border-radius: 20px;
+        color: black;
+        background-color: gray;
+        padding: 10px;
+        height: 15px;   
+        width: 150px;
+    }
+    input::placeholder {
+        color: black;
+        font-family: Rubik;
+        font-size: 18px;
+    }
+    button {
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: bisque;
+        color: black;
+        font-family: Rubik;
+        font-size: 18px;
+    }
+    h2 {
+        font-family: Rubik;
+        color: bisque;
+    }
+    h3 {
+        font-family: Rubik;
+        color: bisque;
+    }
+</style>
+<script src="Js em projetos/Media_script.js"></script>
+</html>
